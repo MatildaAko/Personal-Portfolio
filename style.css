@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #090909;
+    font-family: "Josefin Slab", serif;
+}
+
+#navbar {
+    width: 100vw;
+    height: 100px;
+    padding: 20px;
+    background: #f76469;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+#navbar a,
+.project-tile a {
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: auto 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#welcome-section {
+    width: 100vw;
+    height: 100vh;
+    background: #090909;
+}
+
+h1 {
+    font-size: 45px;
+    color: #edabae;
+    padding-top: 45vh;
+    font-family: "Aclonica", sans-serif;
+    text-shadow: 1px 1px 0 #090909, 2px 2px 0 #ad3438;
+}
+
+h1,
+h2,
+p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#welcome-section p {
+    text-align: center;
+    padding-top: 5vh;
+    font-size: 30px;
+    color: #edabae;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: "Aclonica", sans-serif;
+    text-shadow: 1px 1px 0 #edabae, 2px 2px 0 #ad3438;
+}
+
+p {
+    font-size: 25px;
+    padding: 5vh 0;
+}
+
+#projects {
+    box-sizing: border-box;
+    width: 100vw;
+    height: auto;
+    background: #edabae;
+    padding: 40px;
+}
+
+.tile-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    padding: 40px calc((100% - (345px * 3)) / 2);
+}
+
+.project-tile {
+    width: 300px;
+    height: 350px;
+    background: #f76469;
+    margin: 20px;
+    border: none;
+    box-shadow: 1px 1px 6px 2px rgb(213, 11, 18);
+    text-align: center;
+    position: relative;
+}
+
+img {
+    width: inherit;
+    height: 280px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.project-tile a {
+    position: inherit;
+    top: 85%;
+    width: 100%;
+    margin: 0;
+}
+
+#contact {
+    width: 100vw;
+    height: calc(100vh - 170px);
+    background: #090909;
+    text-align: center;
+}
+
+#contact a,
+#contact p {
+    color: #edabae;
+}
+
+#contact h1 {
+    padding: calc(10vh);
+    font-size: 40px;
+}
+
+#contact p {
+    width: 60vw;
+    margin: 0 auto;
+}
+
+i {
+    color: #f76469;
+    font-size: 40px;
+    padding: 2rem;
+    padding-right: 1rem;
+}
+
+#first-i {
+    padding-left: 0;
+}
+
+#contact a {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+footer {
+    width: 100vw;
+    height: 70px;
+    background: #f76469;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+}
+
+footer p {
+    margin: 0 auto;
+    color: #090909;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 35px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+}
