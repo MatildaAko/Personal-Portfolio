@@ -151,7 +151,7 @@ i {
 
 footer {
     width: 100vw;
-    height: 70px;
+    height: auto;
     background: #f76469;
     box-sizing: border-box;
     text-align: center;
